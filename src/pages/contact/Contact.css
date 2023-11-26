@@ -1,0 +1,185 @@
+.contactSection {
+	width: auto;
+	height: 100%;
+	background: #000;
+	color: #fff;
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 60px 0;
+	gap: 25px;
+}
+
+.contactHeader p {
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.contactInfo {
+	width: 50%;
+}
+
+.contactInfo p {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+}
+
+.contactMail a {
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 400;
+	color: #b3b3b3;
+	text-transform: uppercase;
+	transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	text-decoration: none;
+}
+.contactMail a:hover {
+	color: white;
+	transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+}
+
+.contactFooter {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	border-top: 1px solid gray;
+	padding: 25px 0;
+}
+
+.contactName p {
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 400;
+}
+
+.contactLink {
+	display: flex;
+	gap: 20px;
+}
+
+.contactLink a {
+	font-size: 16px;
+	line-height: 19px;
+	color: #b3b3b3;
+	text-decoration: none;
+}
+
+.contactLink a:hover {
+	color: white;
+	transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+}
+
+@media (width <= 400px) {
+	.contactContainer {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		gap: 25px;
+		padding-left: 10px;
+	}
+
+	.contactInfo {
+		width: 100%;
+	}
+
+	.contactHeader p {
+		font-size: 28px;
+		line-height: 32px;
+		font-weight: 600;
+	}
+
+	.contactInfo p {
+		font-size: 14px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+
+	.contactMail a {
+		font-size: 14px;
+		line-height: 19px;
+		font-weight: 400;
+		color: #b3b3b3;
+		text-transform: uppercase;
+		transition: 0.5s ease-in;
+		-webkit-transition: 0.5s ease-in;
+		-moz-transition: 0.5s ease-in;
+		-ms-transition: 0.5s ease-in;
+		-o-transition: 0.5s ease-in;
+		text-decoration: none;
+	}
+
+	.contactFooter {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		gap: 30px;
+		justify-content: unset;
+	}
+}
+
+@media (400px <= width <= 780px) {
+	.contactContainer {
+		width: auto;
+		padding-left: 15px;
+	}
+
+	.contactInfo {
+		width: 100%;
+	}
+
+	.contactHeader p {
+		font-size: 28px;
+		line-height: 32px;
+		font-weight: 600;
+	}
+
+	.contactInfo p {
+		font-size: 14px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+
+	.contactMail a {
+		font-size: 14px;
+		line-height: 19px;
+		font-weight: 400;
+		color: #b3b3b3;
+		text-transform: uppercase;
+		transition: 0.5s ease-in;
+		-webkit-transition: 0.5s ease-in;
+		-moz-transition: 0.5s ease-in;
+		-ms-transition: 0.5s ease-in;
+		-o-transition: 0.5s ease-in;
+		text-decoration: none;
+	}
+
+	.contactFooter {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		gap: 30px;
+		justify-content: unset;
+	}
+}

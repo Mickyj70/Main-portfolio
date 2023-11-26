@@ -1,0 +1,33 @@
+.portfolio {
+	width: auto;
+	min-height: 100dvh;
+	background: #000;
+	color: #fff;
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-bottom: 1px solid #b0a695;
+}
+
+.portfolio-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 85%;
+	justify-content: center;
+}
+
+.portfolio-header {
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.portfolio-header h2 {
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	font-size: 45px;
+	color: #b0a695;
+}

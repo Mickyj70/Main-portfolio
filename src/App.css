@@ -1,0 +1,23 @@
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/* <div style="width:100%"><div style="height:0;padding-bottom:56.25%;position:relative;width:100%"><iframe allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/ozNvZioZuhQZ9YmxvX/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div> */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth !important;
+	list-style: none;
+	text-decoration: none;
+	/* height: 100vh;
+	background: url("https://giphy.com/embed/ozNvZioZuhQZ9YmxvX/video"); */
+}
+
+li {
+	list-style: none;
+}

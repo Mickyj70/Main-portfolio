@@ -1,0 +1,169 @@
+.navbar {
+	/* top: 20px;
+	left: 20px;
+	right: 20px; */
+	width: 100%;
+	height: 70px;
+	background: transparent;
+	/* background: #000; */
+	color: #fff;
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	position: fixed;
+	z-index: 990;
+}
+
+.navbar-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar-header {
+	display: flex;
+	position: relative;
+	left: 60px;
+}
+
+.navbar-header p {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.navbar-header p span {
+	color: rgba(184, 28, 28, 0.829);
+}
+
+.navbar-list {
+	display: flex;
+}
+
+.navbar-links {
+	display: flex;
+	margin-right: 20px;
+}
+
+.navbar-links a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+}
+.navbar-links a:hover {
+	transition: color 0.5 ease-in;
+	color: #b0a695;
+}
+
+.navbar-icons {
+	display: flex;
+	position: relative;
+	padding-right: 30px;
+}
+
+.navbar-icons p {
+	margin-right: 10px;
+}
+
+.navbar-icons p a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-icons p a:hover {
+	transition: color 0.5 ease-in;
+	color: #b0a695;
+}
+
+.hamburger-menu {
+	display: none;
+	color: #fff;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+	margin: 20px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+@media (width <= 798px) {
+	.navbar {
+		top: 10px;
+		left: 10px;
+		right: 10px;
+		width: 95%;
+		height: 70px;
+		background: #000;
+		color: #fff;
+		font-family: "Poppins", "Helvetica Neue", Helvetica;
+		position: fixed;
+		z-index: 990;
+		border: 1px solid antiquewhite;
+		border-radius: 20px;
+		box-shadow: #b0a695;
+	}
+
+	.navbar-wrapper {
+		max-width: 798px;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar-header {
+		display: flex;
+		width: 250px;
+		position: sticky;
+	}
+
+	.navbar-header p {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	.navbar-icons {
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+		padding-right: 10px;
+		color: #fff;
+	}
+	.navbar-list {
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		height: 80%;
+		align-items: center;
+		justify-content: center;
+		background: #000;
+		z-index: 999;
+		position: fixed;
+		top: 60px;
+		left: 10px;
+		right: 10px;
+		border: none;
+		border-radius: 15px;
+		transition: 0.5s ease-in-out;
+	}
+
+	.navbar-list.active {
+		left: 1000px;
+	}
+
+	.navbar-links {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navbar-links a {
+		color: #fff;
+		font-weight: 600;
+		font-size: 35px;
+	}
+}

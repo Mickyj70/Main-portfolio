@@ -1,0 +1,158 @@
+.about {
+	width: auto;
+	min-height: 50dvh;
+	background: #000;
+	color: #fff;
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #b0a695;
+}
+
+.about-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	max-width: 85%;
+	justify-content: center;
+}
+
+.about-header {
+	margin-bottom: 30px;
+}
+
+.about-header h2 {
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	font-size: 45px;
+	color: #b0a695;
+}
+
+.about-top {
+	max-width: 85%;
+	height: 100%;
+}
+
+.about-top p {
+	font-size: 20px;
+	font-family: "Poppins", "Helvetica Neue", Helvetica;
+	color: #b0a695;
+	padding-bottom: 10px;
+}
+
+.about-top h3 {
+	font-family: inherit;
+	font-size: 18px;
+	color: #b0a695;
+	font-weight: 600;
+}
+
+.about-bottom {
+	margin-top: 20px;
+}
+
+.about-button {
+	font-family: "Ropa Sans", sans-serif;
+	/* font-family: 'Valorant', sans-serif; */
+	color: white;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.05rem;
+	border: 1px solid #0e1822;
+	padding: 0.8rem 2.1rem;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+	background-color: #0e1822;
+	background-size: 200%;
+	background-position: 200%;
+	background-repeat: no-repeat;
+	transition: 0.3s ease-in-out;
+	transition-property: background-position, border, color;
+	position: relative;
+	z-index: 1;
+}
+
+.about-button:hover {
+	border: 1px solid #ff4655;
+	color: white;
+	background-position: 40%;
+}
+
+.about-button:before {
+	content: "";
+	position: absolute;
+	background-color: #0e1822;
+	width: 0.2rem;
+	height: 0.2rem;
+	top: -1px;
+	left: -1px;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.about-button:hover:before {
+	background-color: white;
+}
+
+.about-button:hover:after {
+	background-color: white;
+}
+
+.about-button:after {
+	content: "";
+	position: absolute;
+	background-color: #ff4655;
+	width: 0.3rem;
+	height: 0.3rem;
+	bottom: -1px;
+	right: -1px;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.about-button a {
+	color: #b0a695;
+}
+
+@media (width <= 758px) {
+	.about-wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		max-width: 100%;
+		justify-content: center;
+		padding-left: 20px;
+	}
+
+	.about-header {
+		margin-bottom: 30px;
+	}
+
+	.about-header h2 {
+		font-family: "Poppins", "Helvetica Neue", Helvetica;
+		font-size: 45px;
+		color: #b0a695;
+	}
+
+	.about-top {
+		width: 100%;
+		height: 100%;
+	}
+
+	.about-top p {
+		font-size: 20px;
+		font-family: "Poppins", "Helvetica Neue", Helvetica;
+		color: #b0a695;
+		padding-bottom: 10px;
+		line-height: 1.5rem;
+	}
+
+	.about-top h3 {
+		font-family: inherit;
+		font-size: 18px;
+		color: #b0a695;
+		font-weight: 600;
+	}
+}
