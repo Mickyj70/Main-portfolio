@@ -317,7 +317,7 @@
 	.large-text p {
 		font-family: inherit;
 		color: #b0a695;
-		font-size: 35px;
+		font-size: 30px;
 		text-transform: capitalize;
 		font-weight: 600;
 		padding-bottom: 5px;
@@ -325,7 +325,7 @@
 
 	.large-text span {
 		font-family: inherit;
-		font-size: 35px;
+		font-size: 30px;
 		background: -webkit-linear-gradient(#eee, #333);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
