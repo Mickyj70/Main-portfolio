@@ -304,13 +304,28 @@
 }
 
 @media (width <= 440px) {
+	.home {
+		width: 100%;
+		min-height: 100dvh;
+		background: #000;
+		color: #fff;
+		font-family: "Poppins", "Helvetica Neue", Helvetica;
+		position: relative;
+		padding-top: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border-bottom: 1px solid #b0a695;
+	}
+
 	.home-wrapper {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		padding-left: unset;
-		width: 100%;
+		width: 98%;
 		height: 100%;
 		padding-top: 30px;
 	}
