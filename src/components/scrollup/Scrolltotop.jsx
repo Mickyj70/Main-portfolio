@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 // textVariant = {
 //     initial : {
@@ -66,10 +67,12 @@ export default function Scrolltotop() {
 						fontSize: "50px",
 						width: "50px",
 						height: "50px",
+						cursor: "pointer",
+						borderRadius: "5px",
 					}}
 					onClick={scrollUp}
 				>
-					^
+					<FaArrowAltCircleUp />
 				</motion.button>
 			)}
 		</motion.div>

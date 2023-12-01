@@ -155,7 +155,7 @@
 
 .small-text p {
 	font-size: 25px;
-	color: #b0a695;
+	color: #fff;
 }
 
 @media (width <= 758px) {
@@ -203,7 +203,7 @@
 
 	.small-text p {
 		font-size: 22px;
-		color: #b0a695;
+		color: #fff;
 	}
 }
 
@@ -355,7 +355,7 @@
 
 	.small-text p {
 		font-size: 20px;
-		color: #b0a695;
+		color: #fff;
 	}
 	.home-middle {
 		margin-bottom: 20px;

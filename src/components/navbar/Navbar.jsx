@@ -82,17 +82,17 @@ const Navbar = () => {
 				</motion.ul>
 				<div className="navbar-icons">
 					<p>
-						<a href="#">
+						<a href="https://github.com/Mickyj70">
 							<FaGithub />
 						</a>
 					</p>
 					<p>
-						<a href="#">
+						<a href="http://instagram.com/mike_dev7?igshid=NGVhN2U2NjQ0Yg==">
 							<FaInstagram />
 						</a>
 					</p>
 					<p>
-						<a href="#">
+						<a href="https://wa.link/hzr6ow">
 							<FaWhatsapp />
 						</a>
 					</p>

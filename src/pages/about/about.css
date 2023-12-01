@@ -40,14 +40,14 @@
 .about-top p {
 	font-size: 20px;
 	font-family: "Poppins", "Helvetica Neue", Helvetica;
-	color: #b0a695;
+	color: #fff;
 	padding-bottom: 10px;
 }
 
 .about-top h3 {
 	font-family: inherit;
 	font-size: 18px;
-	color: #b0a695;
+	color: #fff;
 	font-weight: 600;
 }
 
@@ -144,7 +144,7 @@
 	.about-top p {
 		font-size: 20px;
 		font-family: "Poppins", "Helvetica Neue", Helvetica;
-		color: #b0a695;
+		color: #fff;
 		padding-bottom: 10px;
 		line-height: 1.5rem;
 	}
@@ -152,7 +152,7 @@
 	.about-top h3 {
 		font-family: inherit;
 		font-size: 18px;
-		color: #b0a695;
+		color: #fff;
 		font-weight: 600;
 	}
 }
