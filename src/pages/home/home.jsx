@@ -44,7 +44,7 @@ const Home = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            Hi, I&apos;m Michael an Experienced full-stack developer with over 2
+            Hi, I&apos;m Michael an Experienced full-stack developer with over 3
             years of experience in React, Next, Node js, and express js. Ready
             to create innovative web solutions.
           </motion.p>
