@@ -68,7 +68,9 @@ export default function Scrolltotop() {
             width: "50px",
             height: "50px",
             cursor: "pointer",
-            borderRadius: "5px",
+            borderRadius: "10px",
+            background: "transparent",
+            color: "#ffff",
           }}
           onClick={scrollUp}
         >
